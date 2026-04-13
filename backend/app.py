@@ -334,11 +334,5 @@ def serve_frontend(path):
 
 # ─────────────────────────────────────────────
 if __name__ == "__main__":
-    print("""
-  ╔════════════════════════════════════╗
-  ║   FRAME Cinema Blog — Backend      ║
-  ║   Running on http://localhost:5000 ║       ║
-  ╚════════════════════════════════════╝
-    """)
     port = int(os.environ.get("PORT", 8080))
-app.run(host="0.0.0.0", port=port, debug=False)
+    app.run(host="0.0.0.0", port=port, debug=False)
