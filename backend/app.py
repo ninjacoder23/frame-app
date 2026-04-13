@@ -37,9 +37,9 @@ if not USING_FLASK:
 BASE_DIR   = os.path.dirname(os.path.abspath(__file__))
 DB_PATH    = os.path.join(BASE_DIR, "frame.db")
 UPLOAD_DIR = os.path.join(BASE_DIR, "uploads")
-JWT_SECRET = os.environ.get("JWT_SECRET", "frame-super-secret-change-in-prod")
-ADMIN_USER = os.environ.get("ADMIN_USER", "mooneem4")
-ADMIN_PASS = os.environ.get("ADMIN_PASS", "movieswithmuneem@786")  # Change this!
+JWT_SECRET = os.environ.get("JWT_SECRET", "")
+ADMIN_USER = os.environ.get("ADMIN_USER", "")
+ADMIN_PASS = os.environ.get("ADMIN_PASS", "")  
 ALLOWED_EXT = {"png", "jpg", "jpeg", "gif", "webp"}
 
 os.makedirs(UPLOAD_DIR, exist_ok=True)
