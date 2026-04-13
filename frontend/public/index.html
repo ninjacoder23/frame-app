@@ -548,7 +548,7 @@ tr:hover td { background:rgba(255,255,255,.02); }
 ════════════════════════════════════ -->
 <script>
 // ── Config ──
-const API = 'http://localhost:5000/api';
+const API = window.location.origin + '/api';
 const PLACEHOLDERS = ['ph-1','ph-2','ph-3','ph-4','ph-5','ph-6'];
 const SECTION_META = {
   reviews:  { label:'01 — Cinema Reviews',       title:'Cinema<br>Reviews',             bg:'https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=900' },
