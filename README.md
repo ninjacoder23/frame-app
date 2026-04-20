@@ -29,14 +29,6 @@ http://localhost:5000
 
 Click **Admin ↗** in the top-right nav, or go to `http://localhost:5000` and click it.
 
-**Default credentials:**
-- Username: `admin`
-- Password: `frame2025`
-
-> ⚠️ Change these in `backend/app.py` — the `ADMIN_USER` and `ADMIN_PASS` variables — or set environment variables before running.
-
----
-
 ## Project Structure
 
 ```
